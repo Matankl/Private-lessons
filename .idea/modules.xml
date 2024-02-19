@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Colections/Colections.iml" filepath="$PROJECT_DIR$/Colections/Colections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data_Structure/Data_Structure.iml" filepath="$PROJECT_DIR$/Data_Structure/Data_Structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Junit_Class/Junit_Class.iml" filepath="$PROJECT_DIR$/Junit_Class/Junit_Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/more files/Practicals/Practicals.iml" filepath="$PROJECT_DIR$/more files/Practicals/Practicals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Private lessons.iml" filepath="$PROJECT_DIR$/Private lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Random_Questions/Random_Questions.iml" filepath="$PROJECT_DIR$/Random_Questions/Random_Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/more files/Practicals/TA11/TA11.iml" filepath="$PROJECT_DIR$/more files/Practicals/TA11/TA11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/more files/Practicals/TA13/TA13.iml" filepath="$PROJECT_DIR$/more files/Practicals/TA13/TA13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/more files/Practicals/TA13/TA13/TA131.iml" filepath="$PROJECT_DIR$/more files/Practicals/TA13/TA13/TA131.iml" />
+    </modules>
+  </component>
+</project>
