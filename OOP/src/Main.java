@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -10,7 +12,8 @@ public class Main {
         Square squareC = new Square(15, "Blue", "SquareC");
 
          //circleA.Color = "Red"; // Error - Color is private
-
+        ArrayList<Circle> circleList = new ArrayList<Circle>();
+        circleList.add(circleA);
 
         System.out.println(circleB.getColor());
         circleB.setColor("Yellow");
