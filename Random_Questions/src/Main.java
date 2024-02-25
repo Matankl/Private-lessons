@@ -6,10 +6,13 @@ import java.util.Scanner;
 // at the end print the number of valid strings
 public class Main {
     public static void main(String[] args) {
+        String GG = "ASAFDFFDGAA";
+        System.out.println(isValid(GG));
 
         Scanner scan = new Scanner(System.in);
         int couter = 0;
         int index = 0;
+        int[] arr = new int[23];
 
         do {
             String curr = scan.nextLine();

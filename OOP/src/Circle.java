@@ -38,7 +38,7 @@ public class Circle {
     }
 
     public double getRadius() {
-        return Radius;
+        return this.Radius;
     }
 
     public void setRadius(double radius) {

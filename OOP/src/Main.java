@@ -9,6 +9,16 @@ public class Main {
         Square squareB = new Square(10, "Yellow", "SquareB");
         Square squareC = new Square(15, "Blue", "SquareC");
 
+         //circleA.Color = "Red"; // Error - Color is private
+
+
+        System.out.println(circleB.getColor());
+        circleB.setColor("Yellow");
+        System.out.println(circleB.getColor());
+
+
+        int num = Circle.count;
+
         squareB.getArea();
         squareB.getPerimeter();
         System.out.println(squareB.getColor());
@@ -16,9 +26,6 @@ public class Main {
 
         System.out.println(Circle.count);
 
-        System.out.println(circleB.getColor());
-        circleB.setColor("Yellow");
-        System.out.println(circleB.getColor());
 
 
 
@@ -27,34 +34,39 @@ public class Main {
 
 
 
-//
-//        Animal[] arr = new Animal[8];
-//
-//        Lion lionA = new Lion("Simba", 3);
-//        Lion lionB = new Lion("Nala", 4);
-//        Lion lionC = new Lion("haya", 5);
-//
-//        Dog dogA = new Dog("Rex", 3, "Bulldog", "Brown");
-//        Dog dogB = new Dog("moshe", "Bulldog", "Brown");
-//
-//        Animal catA = new Cat("mitsi", 10, "black");
-//
-//        arr[0] = lionA;
 
 
-//        System.out.println(lionA.getName());
-//        lionA.setName("Mufasa");
-//        System.out.println(lionA.getName());
-//
-//        lionA.MakeSound();
-//       int count = Lion.count;
-//        System.out.println(count);
-//
-//        dogA.sleep();
-//        dogB.sleep();
-//        lionA.sleep();
-//        lionB.sleep();
-//
+        Animal[] arr = new Animal[8];
+
+        Lion lionA = new Lion("Simba", 3);
+        Lion lionB = new Lion("Nala", 4);
+        Lion lionC = new Lion("haya", 5);
+
+        Dog dogA = new Dog("Rex", 3, "Bulldog", "Brown");
+        Dog dogB = new Dog("Moshe", "Bulldog", "Brown");
+
+        Animal catA = new Cat("Mitsi", 10, "black");
+//      Cat catB = new Animal("Mitsi", 10, "black");                  // Error - Animal cannot be converted to Cat
+
+
+
+
+        arr[0] = lionA;
+
+
+        System.out.println(lionA.getName());
+        lionA.setName("Mufasa");
+        System.out.println(lionA.getName());
+
+        lionA.MakeSound();
+       int count = Lion.count;
+        System.out.println(count);
+
+        dogA.sleep();
+        dogB.sleep();
+        lionA.sleep();
+        lionB.sleep();
+
 
 
 

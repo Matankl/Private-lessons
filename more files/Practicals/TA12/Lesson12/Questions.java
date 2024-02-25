@@ -7,7 +7,6 @@ public class Questions {
 
     public static boolean booleanMaze(Boolean[][] maze) {
         int len = maze.length;
-        ;
         if (len == 0) {
             return false;
         } else if (!maze[0][0] || !maze[len - 1][len - 1]) {
@@ -71,15 +70,13 @@ public class Questions {
             return l;
         }
         LinkedList output = new LinkedList();
-        LinkedList check = new LinkedList();
         int index = 0;
         for (int i = 0; i < l.size(); i++) {
-            check.addAt(l.get(i), index);
-            if (Questions.isSet(check)) {
-                output.addAt(l.get(i), index);
-                index++;
-            } else {
-                check.removeElementAt(index);
+            output.addAt(l.get(i), index);
+            index++;
+            if (!isSet(output)) {
+                output.removeElementAt(index);
+                index--;
             }
         }
         return output;
